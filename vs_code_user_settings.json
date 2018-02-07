@@ -1,0 +1,64 @@
+{
+  "files.insertFinalNewline": true,
+  "editor.minimap.enabled": true,
+  "editor.wordWrap": false,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "boundary",
+  "ruby.lint": {
+    "reek": true,
+    "rubocop": true,
+    "ruby": true, //Runs ruby -wc
+    "fasterer": true,
+    "debride": true,
+    "ruby-lint": true
+  },
+  "terminal.integrated.shellArgs.osx": [
+    "-l"
+  ],
+  "window.zoomLevel": 0,
+  "files.associations": {
+    "multivac": "ruby"
+  },
+  "todohighlight.keywords": [
+    "BUG:", // adding custom keywords without specifying the look, default color will be applied,
+    "FIXME:",
+    {
+      "text": "binding.pry", // custom text to be highlighted
+      "color": "red", // the text color, any css color identifier is valid
+      "backgroundColor": "white", // the text background color
+      "overviewRulerColor": "grey" //the color of the ruler mark on the scroll bar. use rgba() and define transparent colors to play well with other decorations.
+    },
+    {
+      "text": "HACK:",
+      "color": "#000"
+    }
+  ],
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "terminal.integrated.rightClickCopyPaste": true,
+  "workbench.colorTheme": "Monokai",
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "material-icon-theme.showUpdateMessage": false,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.acceptSuggestionOnEnter": "off",
+  "vim.disableAnnoyingNeovimMessage": true,
+  "sublimeTextKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnPaste": true,
+  "workbench.panel.location": "bottom",
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressUpdateNotice": true,
+    "suppressWelcomeNotice": true
+  }
+}

@@ -1,0 +1,171 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "ctrl+s",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "actions.find"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "cursorColumnSelectDown",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "cursorColumnSelectUp",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+z",
+    "command": "undo",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+y",
+    "command": "redo",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "editor.action.clipboardCopyAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+c",
+    "command": "relative-path-and-line.copyRelativePathAndLine",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+x",
+    "command": "editor.action.clipboardCutAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+v",
+    "command": "editor.action.clipboardPasteAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "editor.action.selectAll"
+  },
+  {
+    "key": "shift+cmd+z",
+    "command": "redo",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+/",
+    "command": "editor.action.commentLine"
+  },
+  {
+    "key": "shift+ctrl+p",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+shift+right",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "ctrl+shift+left",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "ctrl+shift+o",
+    "command": "workbench.action.terminal.focus",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+o",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "!editorFocus"
+  },
+  {
+    "command": "extension.runSpecLine",
+    "title": "Run Spec Line",
+    "key": "ctrl+shift+l"
+  },
+  {
+    "key": "ctrl+shift+4",
+    "command": "workbench.view.debug"
+  },
+  {
+    "key": "ctrl+shift+1",
+    "command": "workbench.view.explorer"
+  },
+  {
+    "key": "ctrl+shift+5",
+    "command": "workbench.view.extensions"
+  },
+  {
+    "key": "ctrl+shift+3",
+    "command": "workbench.view.git"
+  },
+  {
+    "key": "ctrl+shift+2",
+    "command": "workbench.view.search",
+    "when": "!searchViewletVisible"
+  },
+  {
+    "key": "ctrl+shift+h",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+left",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+right",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+z",
+    "command": "workbench.action.toggleZenMode"
+  },
+  {
+    "key": "cmd+k z",
+    "command": "-workbench.action.toggleZenMode"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "workbench.action.toggleEditorGroupLayout"
+  },
+  {
+    "key": "alt+cmd+1",
+    "command": "-workbench.action.toggleEditorGroupLayout"
+  },
+  {
+    "key": "ctrl+backspace",
+    "command": "editor.action.deleteLines",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "-editor.action.deleteLines",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+a",
+    "command": "editor.action.changeAll",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+f2",
+    "command": "-editor.action.changeAll",
+    "when": "editorTextFocus && !editorReadonly"
+  }
+]
